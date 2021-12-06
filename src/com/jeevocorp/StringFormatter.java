@@ -48,7 +48,7 @@ public class StringFormatter {
 
     public static String[] splitPhraseIntoWords(String originalPhrase){
         String [] words = {};
-        
+
         if(originalPhrase == null) {
             return words;
         }
