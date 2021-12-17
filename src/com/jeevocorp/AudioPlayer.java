@@ -38,10 +38,9 @@ public class AudioPlayer {
 
                 case "Q":
                     clip.close();
+                    System.out.println("See ya later");
                     break;
             }
-
-            System.out.println("See ya later");
         }
     }
 }
